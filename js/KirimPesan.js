@@ -3,7 +3,7 @@ function SendWAMessage() {
     var xPesan = document.getElementById("yourpesan").value;
     var link = document.getElementById("mylink");
     var yourNumber = "6288220063867";
-    var yourMessage = 'Hallo, Nama saya ' + xNama + '\n' + '\n' + xPesan
+    var yourMessage = 'Hallo, Nama saya ' + xNama + ', ' + '\n' + xPesan
 
     var linkWhatsapp = 'https://api.whatsapp.com/send?phone=' + yourNumber + '&text=%20' + yourMessage;
 
