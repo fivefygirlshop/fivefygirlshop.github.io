@@ -1,0 +1,138 @@
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom:  100px;
+    margin-top: 50px;
+}
+
+.jumbotron img {
+    width: 200px;
+}
+
+.jumbotron {
+    background-image: url("../img/back/wall4.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #eee;
+    overflow: hidden;
+}
+
+.jumbotron h1, .jumbotron p {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5)
+}
+
+hr{
+    width: 250px;
+    border-top: 4px solid #999;
+}
+
+section {
+    padding-top: 30px;
+}
+
+.about {
+    min-height: 430px;
+}
+
+.contact {
+    min-height: 920px;
+}
+
+a.nama{
+    text-transform: uppercase;
+    transition: all ease-in-out 250ms;
+    }
+  a.nama:link, a.nama:visited {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+  }
+  a.nama:hover, a.nama:active {
+    background-color: rgb(20, 100, 220);
+  }
+
+.portfolio {
+    background-color: #eee;
+}
+
+.card {
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 125px;
+    background-color: #333;
+    padding-top: 30px;
+}
+
+footer p {
+    color: #eee;
+    font-size: 0.9em;
+}
+
+form {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+@media only screen and (max-width: 768px) {
+    form {
+        margin:auto 5% 15% 5%;
+    }
+}
+
+.galeri-portfolio .caption{
+    padding: 26px 30px;
+    text-align: center;
+}
+
+.galeri-portfolio .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.galeri-portfolio .caption p {
+    font-size: 12px;
+    color: #7b7d7d;
+    margin: 0;
+}
+
+.galeri-portfolio .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.galeri-portfolio .thumbnail:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.galeri-portfolio .lightbox img {
+    border-radius: 4px 4px 0 0;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
