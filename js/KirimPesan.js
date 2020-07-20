@@ -12,11 +12,11 @@ function SendWAMessage() {
   var yourMessage =
     "Hallo, Nama saya " +
     xNama +
-    ", " +
+    " - " +
     xJalan.split(" ").join("%20") +
-    "\n" +
+    " | " +
     xRT.split(" ").join("%20") +
-    "\n" +
+    " | " +
     xRW.split(" ").join("%20");
 
   var linkWhatsapp =
