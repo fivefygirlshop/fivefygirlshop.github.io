@@ -14,7 +14,7 @@ function SendWAMessage() {
     xNama +
     ", " +
     xJalan.split(" ").join("%20") +
-    "</br>" +
+    ", " +
     xRT.split(" ").join("%20");
 
   var linkWhatsapp =
