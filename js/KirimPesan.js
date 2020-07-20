@@ -13,14 +13,26 @@ function SendWAMessage() {
     "Hallo Fivefy Girlshop, Nama saya " +
     xNama +
     " - " +
-    " Alamat : " +
+    "Alamat : " +
     xJalan.split(" ").join("%20") +
     " | " +
-    " RT : " +
+    "RT : " +
     xRT.split(" ").join("%20") +
     " | " +
-    " RW : " +
-    xRW.split(" ").join("%20");
+    "RW : " +
+    xRW.split(" ").join("%20") +
+    " | " +
+    "Kelurahan : " +
+    xKel.split(" ").join("%20") +
+      " | " +
+    "Kecamatan : " +
+    xKec.split(" ").join("%20") +
+      " | " +
+    "Kabupaten/Kota : " +
+    xKab.split(" ").join("%20") +
+    " | " +
+    "Kode Pos : " +
+    xKodepos.split(" ").join("%20");
 
   var linkWhatsapp =
     "https://api.whatsapp.com/send?phone=" +
