@@ -1,5 +1,6 @@
 function SendWAMessage() {
   var xNama = document.getElementById("yournama").value;
+  var xHape = document.getElementById("yourhape").value;
   var xJalan = document.getElementById("yourjalan").value;
   var xRT = document.getElementById("yourrt").value;
   var xRW = document.getElementById("yourrw").value;
@@ -13,6 +14,9 @@ function SendWAMessage() {
     "Hallo Fivefy Girlshop, Nama saya " +
     xNama +
     " - " +
+    "No. HP : " +
+    xHape.split(" ").join("%20") +
+     " | " +
     "Alamat : " +
     xJalan.split(" ").join("%20") +
     " | " +
