@@ -14,8 +14,10 @@ function SendWAMessage() {
     xNama +
     ", " +
     xJalan.split(" ").join("%20") +
-    ", " +
-    xRT.split(" ").join("%20");
+    "\n" +
+    xRT.split(" ").join("%20") +
+    "\n" +
+    xRW.split(" ").join("%20");
 
   var linkWhatsapp =
     "https://api.whatsapp.com/send?phone=" +
