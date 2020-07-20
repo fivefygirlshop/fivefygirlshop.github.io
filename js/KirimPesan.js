@@ -10,13 +10,16 @@ function SendWAMessage() {
   var link = document.getElementById("mylink");
   var yourNumber = "6288220063867";
   var yourMessage =
-    "Hallo, Nama saya " +
+    "Hallo Fivefy Girlshop, Nama saya " +
     xNama +
     " - " +
+    " Alamat : " +
     xJalan.split(" ").join("%20") +
     " | " +
+    " RT : " +
     xRT.split(" ").join("%20") +
     " | " +
+    " RW : " +
     xRW.split(" ").join("%20");
 
   var linkWhatsapp =
