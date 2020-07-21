@@ -11,30 +11,32 @@ function SendWAMessage() {
   var link = document.getElementById("mylink");
   var yourNumber = "6288220063867";
   var yourMessage =
-    "Hallo Fivefy Girlshop, Nama saya " +
-    xNama +
-    " - " +
+    "Hallo Fivefy Girlshop, Saya tertarik dengan produk yang anda jual."  +
+    " %0a " +
+    "Nama saya : " +
+    xNama + 
+    " %0a " +
     "No. HP : " +
     xHape.split(" ").join("%20") +
-     " | " +
+     " %0a " +
     "Alamat : " +
     xJalan.split(" ").join("%20") +
-    " | " +
+    " %0a " +
     "RT : " +
     xRT.split(" ").join("%20") +
-    " | " +
+    " %0a " +
     "RW : " +
     xRW.split(" ").join("%20") +
-    " | " +
+    " %0a " +
     "Kelurahan : " +
     xKel.split(" ").join("%20") +
-      " | " +
+      " %0a " +
     "Kecamatan : " +
     xKec.split(" ").join("%20") +
-      " | " +
+      " %0a " +
     "Kabupaten/Kota : " +
     xKab.split(" ").join("%20") +
-    " | " +
+    " %0a " +
     "Kode Pos : " +
     xKodepos.split(" ").join("%20");
 
