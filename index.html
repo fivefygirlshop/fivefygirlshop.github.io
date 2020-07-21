@@ -37,7 +37,7 @@
 
             <div class="row">
                 <div class="col-sm-12">
-                    <form>
+                    <form name="myForm">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="yournama">Nama Pemesan</label>
@@ -83,7 +83,7 @@
                                 <input type="text" id="yourkodepos" class="form-control" placeholder="Kode Pos">
                             </div>
                         </div>
-                        <a href="#" onclick="SendWAMessage()" id="mylink" class="btn btn-primary"><i
+                        <a href="#" onmouseover="return validateForm()" onclick="SendWAMessage()" id="mylink" class="btn btn-primary"><i
                                 class="fa fa-whatsapp"></i>&nbsp;&nbsp;Kirim Pesan</a>
                 </div>
                 </form>
@@ -124,10 +124,6 @@
     <script src="js/script.js"></script>
     <script src="js/KlikToCopy.js"></script>
     <script src="js/KirimPesan.js"></script>
-    <script src="js/baguetteBox.min.js"></script>
-    <script>
-        baguetteBox.run('.galeri-portfolio');
-    </script>
 </body>
 
 </html>
